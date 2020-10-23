@@ -25,8 +25,9 @@
     "react-scripts": "3.1.1"
   },
   "scripts": {
-    "dev": "set NODE_EXTRA_CA_CERTS=C:/Users/HP/AppData/Local/mkcert/rootCA.pem && react-scripts start",
+    "dev": "react-scripts start",
     "build": "react-scripts build",
+    "start":"",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "eslint:fix": "eslint --config .eslintrc --fix --cache --format=pretty --ignore-path .eslintignore ./src/**/*.{js,jsx} ./src/*.{js,jsx}",
